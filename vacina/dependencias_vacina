@@ -1,0 +1,10 @@
+ambiente:
+	instalar ambiente virtual -> virtualenv vacina --python=python3.8
+	ativar ambiente virtual -> source bin/activate
+	desattivar -> deactivate
+
+instalar dependencias:
+	pip install Flask
+	pip install Flask-Restful
+	pip install Flask-SQLAlchemy
+	pip install datetime
